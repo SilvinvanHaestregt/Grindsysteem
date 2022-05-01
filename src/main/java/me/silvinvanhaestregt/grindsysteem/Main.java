@@ -4,7 +4,6 @@ import me.silvinvanhaestregt.grindsysteem.Currency.Grindcoins;
 import me.silvinvanhaestregt.grindsysteem.Currency.Grindxp;
 import me.silvinvanhaestregt.grindsysteem.Farms.Block;
 import me.silvinvanhaestregt.grindsysteem.Mines.MinesBlocks;
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
