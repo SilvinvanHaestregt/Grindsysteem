@@ -31,37 +31,37 @@ public class MinesBlocks implements Listener{
                     GrindXp += 5;
                     event.getBlock().setType(Material.BEDROCK);
                     player.sendMessage(ChatColor.GOLD + "Je hebt" + ChatColor.YELLOW + " 5 " + ChatColor.GOLD + "Grindxp ontvangen!");
-                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.COAL_ORE), 3*20);
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.COAL_ORE), 50*20);
                 } else if(block.getType().equals(Material.IRON_ORE)){
                     event.setCancelled(true);
                     event.getBlock().setType(Material.BEDROCK);
                     GrindXp += 5;
                     player.sendMessage(ChatColor.GOLD + "Je hebt" + ChatColor.YELLOW + " 5 " + ChatColor.GOLD + "Grindxp ontvangen!");
-                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.IRON_ORE), 3*20);
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.IRON_ORE), 50*20);
                 } else if(block.getType().equals(Material.GOLD_ORE)){
                     event.setCancelled(true);
                     event.getBlock().setType(Material.BEDROCK);
                     GrindXp += 5;
                     player.sendMessage(ChatColor.GOLD + "Je hebt" + ChatColor.YELLOW + " 5 " + ChatColor.GOLD + "Grindxp ontvangen!");
-                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.GOLD_ORE), 3*20);
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.GOLD_ORE), 50*20);
                 } else if(block.getType().equals(Material.LAPIS_ORE)){
                     event.setCancelled(true);
                     event.getBlock().setType(Material.BEDROCK);
                     GrindXp += 5;
                     player.sendMessage(ChatColor.GOLD + "Je hebt" + ChatColor.YELLOW + " 5 " + ChatColor.GOLD + "Grindxp ontvangen!");
-                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.LAPIS_ORE), 3*20);
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.LAPIS_ORE), 50*20);
                 } else if(block.getType().equals(Material.DIAMOND_ORE)){
                     event.setCancelled(true);
                     event.getBlock().setType(Material.BEDROCK);
                     GrindXp += 5;
                     player.sendMessage(ChatColor.GOLD + "Je hebt" + ChatColor.YELLOW + " 5 " + ChatColor.GOLD + "Grindxp ontvangen!");
-                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.DIAMOND_ORE), 3*20);
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.DIAMOND_ORE), 50*20);
                 } else if(block.getType().equals(Material.EMERALD_ORE)){
                     event.setCancelled(true);
                     event.getBlock().setType(Material.BEDROCK);
                     GrindXp += 5;
                     player.sendMessage(ChatColor.GOLD + "Je hebt" + ChatColor.YELLOW + " 5 " + ChatColor.GOLD + "Grindxp ontvangen!");
-                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.EMERALD_ORE), 3*20);
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, () -> event.getBlock().setType(Material.EMERALD_ORE), 50*20);
                 }
             } else {
                 event.setCancelled(true);
