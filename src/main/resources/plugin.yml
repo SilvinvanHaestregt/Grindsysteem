@@ -1,0 +1,13 @@
+name: Grindsysteem
+version: '${project.version}'
+main: me.silvinvanhaestregt.grindsysteem.Main
+api-version: 1.16
+authors: [ SilvinvanHaestregt ]
+
+commands:
+  grindcoins:
+    description: Grindcoins command
+  grindxp:
+    description: Grindxp command
+  testmessage:
+    description: testmessage
