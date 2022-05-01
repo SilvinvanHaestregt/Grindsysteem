@@ -13,8 +13,18 @@ public class Grindxp implements CommandExecutor {
             Player player = (Player) sender;
 
             if(cmd.getName().equalsIgnoreCase("grindxp")){
-                if(player.hasPermission("grindsysteem.grindxp")){
-
+                if(args.length > 0) {
+                    if (player.hasPermission("grindsysteem.grindxp")) {
+                        if(args[0].equalsIgnoreCase("set")){
+                            // Set the amount of grindxp a player has
+                        } else if (args[0].equalsIgnoreCase("add")) {
+                            // Give a certain amount of grindxp to a player
+                        } else if (args[0].equalsIgnoreCase("remove")) {
+                            // Remove a certain amount of grindxp from a player
+                        }
+                    }
+                } else {
+                    // Show the amount of grindxp a player has
                 }
             }
         }

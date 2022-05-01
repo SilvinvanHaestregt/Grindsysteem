@@ -14,8 +14,18 @@ public class Grindcoins implements CommandExecutor {
             Player player = (Player) sender;
 
             if(cmd.getName().equalsIgnoreCase("grindcoins")){
-                if(player.hasPermission("grindsysteem.grindcoins")){
-
+                if(args.length > 0){
+                    if(player.hasPermission("grindsysteem.grindcoins")){
+                        if(args[0].equalsIgnoreCase("set")){
+                            // Set the amount of grindcoins a player has
+                        } else if (args[0].equalsIgnoreCase("add")) {
+                            // Give a certain amount of grindcoins to a player
+                        } else if (args[0].equalsIgnoreCase("remove")) {
+                            // Remove a certain amount of grindcoins from a player
+                        }
+                    }
+                } else {
+                    // Show the amount of grindcoins the player has
                 }
             }
         }
