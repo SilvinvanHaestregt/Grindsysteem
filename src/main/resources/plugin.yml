@@ -11,3 +11,5 @@ commands:
     description: Grindxp command
   testmessage:
     description: testmessage
+  gui:
+    description: gui
