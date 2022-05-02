@@ -11,8 +11,8 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
 public class Block implements Listener {
-    int GrindXp;
-    Main plugin;
+
+    private Main plugin;
 
     public Block(Main plugin){
         this.plugin = plugin;
@@ -30,7 +30,6 @@ public class Block implements Listener {
                     event.setCancelled(true);
                     event.getBlock().setType(Material.WHEAT);
                     player.getInventory().addItem(Item);
-                    GrindXp += 5;
                     player.sendMessage(ChatColor.GOLD + "Je hebt" + ChatColor.YELLOW + " 5 " + ChatColor.GOLD + "Grindxp ontvangen!");
                 } else {
                     event.setCancelled(true);
